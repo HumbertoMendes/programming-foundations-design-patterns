@@ -1,4 +1,5 @@
-﻿using DesignPatterns.StrategyPattern;
+﻿using DesignPatterns.AdapterPattern;
+using DesignPatterns.StrategyPattern;
 using System;
 
 namespace DesignPatterns
@@ -7,7 +8,9 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            MiniDuckSimulator.TestDuckBehaviors();
+            // MiniDuckSimulator.TestDuckBehaviors();
+            DuckSimulator.TestSimulator();
+
             Console.ReadKey();
         }
     }

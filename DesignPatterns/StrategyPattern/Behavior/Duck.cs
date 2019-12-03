@@ -6,8 +6,8 @@ namespace DesignPatterns.StrategyPattern.Behavior
 {
     abstract public class Duck
     {
-        public IFlyBehavior FlyBehavior { get; set; }
-        public IQuackBehavior QuackBehavior { get; set; }
+        protected IFlyBehavior FlyBehavior { get; set; }
+        protected IQuackBehavior QuackBehavior { get; set; }
 
         public void PerformFly()
         {
